@@ -21,4 +21,7 @@ return [
     'private' => 'Súkromný',
     'protected' => 'Chránený',
     'remove' => 'Odstrániť',
+    'new-post' => 'Nový príspevok',
+    'new-blog-post' => 'Nový Blog Post',
+    'edit-blog-post' => 'Upraviť Blog Post',
 ];

@@ -14,6 +14,12 @@ class BlogController extends Controller
         return view('admin.blog.blog');
     }
 
+    // Add create method
+    public function create(): Factory|View|Application
+    {
+        return view('admin.blog.blog-post');
+    }
+
     // Add update method
     public function update($id): Factory|View|Application
     {

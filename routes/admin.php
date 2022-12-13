@@ -37,7 +37,10 @@ Route::post('/admin/login/verify', [AuthController::class, 'verify'])->name('ver
  */
 Route::get('/admin/blog', [BlogController::class, 'index'])->name('admin.blog.index');
 
-// Add route for admin blog create/edit
+// Add route for admin blog create
+Route::get('/admin/blog/create', [BlogController::class, 'create'])->name('admin.blog.create');
+
+// Add route for admin blog update
 Route::get('/admin/blog/{id}', [BlogController::class, 'update'])->name('admin.blog.update');
 
 /**

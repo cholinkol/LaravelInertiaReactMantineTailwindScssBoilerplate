@@ -1,9 +1,17 @@
 @extends('adminlte::page')
 
-@section('title', 'Blog Post - ' . $id)
+@isset($id)
+    @section('title', 'Blog Post - ' . $id)
+@else
+    @section('title', __('adminlte::blog.new-blog-post'))
+@endisset
 
 @section('content_header')
-    <h1>Blog Post {{$id}}</h1>
+    @isset($id)
+        <h1>{{__('adminlte::blog.edit-blog-post')}} {{$id}}</h1>
+    @else
+        <h1>{{__('adminlte::blog.new-blog-post')}}</h1>
+    @endisset
 @stop
 
 @section('content')
