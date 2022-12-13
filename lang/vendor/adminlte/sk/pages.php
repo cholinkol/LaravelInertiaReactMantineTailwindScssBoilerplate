@@ -8,4 +8,5 @@ return [
     'tags' => 'Tagy',
     'date' => 'Dátum',
     'actions' => 'Akcie',
+    'new-page' => 'Nová stránka',
 ];

@@ -3,7 +3,17 @@
 @section('title', __('adminlte::pages.pages'))
 
 @section('content_header')
-    <h1>{{__('adminlte::pages.pages')}}</h1>
+    <div class="flex justify-between">
+
+        <h1>{{__('adminlte::pages.pages')}}</h1>
+
+        {{-- Button Create new blog post --}}
+        <a href="{{ route('admin.blog.create') }}">
+            <x-adminlte-button class="btn-sm" theme="success" icon="fas fa-lg fa-plus"
+                               label="{{__('adminlte::pages.new-page')}}"/>
+        </a>
+
+    </div>
 @stop
 
 @section('content')
@@ -72,5 +82,5 @@
             </tr>
         @endforeach
     </x-adminlte-datatable>
-    
+
 @stop
