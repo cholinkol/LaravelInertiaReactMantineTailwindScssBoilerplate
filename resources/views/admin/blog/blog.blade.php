@@ -28,21 +28,11 @@
 
         $config = [
             'data' => [
-                [1, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [2, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [3, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [4, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [5, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [6, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [7, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [8, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [9, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [10, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [11, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [12, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [13, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [14, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
-                [15, '<a href="#">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
+                [1, '<a href="/admin/blog/1">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
+                [2, '<a href="/admin/blog/2">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
+                [3, '<a href="/admin/blog/3">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
+                [4, '<a href="/admin/blog/4">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
+                [5, '<a href="/admin/blog/5">Blog Title</a>', '<a href="#">John Doe</a>', '<a href="#">Category 1</a>, <a href="#">Category 2</a>', '<a href="#">Tag 1</a>, <a href="#">Tag 2</a>', '2020-01-01', "$btnEdit $btnDelete"],
             ],
             'order' => [[0, 'asc']],
             'columns' => [null, null, null, null, null, null, ['orderable' => false]],
@@ -74,5 +64,5 @@
             </tr>
         @endforeach
     </x-adminlte-datatable>
-    
+
 @stop

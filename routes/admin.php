@@ -26,16 +26,19 @@ Route::group(['middleware' => ['auth', 'role:admin']], static function () {
 Route::get('/admin', [DashboardController::class, 'index'])->name('admin.dashboard');
 
 // Add route for admin login
-Route::get('/admin/login', [AuthController::class, 'login'] )->name('login');
+Route::get('/admin/login', [AuthController::class, 'login'])->name('login');
 
 // Add route for admin verify login
-Route::post('/admin/login/verify', [AuthController::class, 'verify'] )->name('verify');
+Route::post('/admin/login/verify', [AuthController::class, 'verify'])->name('verify');
 
 
 /**
  * Add routes for admin Blog
  */
 Route::get('/admin/blog', [BlogController::class, 'index'])->name('admin.blog.index');
+
+// Add route for admin blog create/edit
+Route::get('/admin/blog/{id}', [BlogController::class, 'update'])->name('admin.blog.update');
 
 /**
  * Add routes for admin Pages
