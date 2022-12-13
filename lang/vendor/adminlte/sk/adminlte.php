@@ -26,4 +26,17 @@ return [
     'verify_request_another'      => 'kliknite sem pre obdržanie ďalšieho',
     'confirm_password_message'    => 'Pre pokračovanie prosím potvrďte svoje heslo.',
     'remember_me_hint'            => 'Udržiavať prihlásenie bez obmedzenia, alebo kým sa neodhlásim',
+
+    'show_entries'                => 'Zobraziť _MENU_ záznamov',
+    'zero_records'                => 'Neboli nájdené žiadne záznamy',
+    'showing_page'                => 'Zobrazujem stránku',
+    'of'                          => 'z',
+    'filtered_from'               => 'filtrované z',
+    'total_entries'               => 'všetkých záznamov',
+    'search'                      => 'Hľadať',
+    'first'                       => 'Prvá',
+    'last'                        => 'Posledná',
+    'next'                        => 'Ďalšia',
+    'previous'                    => 'Predchádzajúca',
+
 ];

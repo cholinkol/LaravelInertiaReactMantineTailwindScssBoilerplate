@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -28,3 +29,9 @@ Route::get('/admin/login', [AuthController::class, 'login'] )->name('login');
 
 // Add route for admin verify login
 Route::post('/admin/login/verify', [AuthController::class, 'verify'] )->name('verify');
+
+
+/**
+ * Add routes for admin Blog
+ */
+Route::get('/admin/blog', [BlogController::class, 'index'])->name('admin.blog.index');

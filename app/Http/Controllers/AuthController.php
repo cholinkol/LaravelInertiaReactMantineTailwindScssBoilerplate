@@ -11,6 +11,6 @@ class AuthController extends Controller
     // Add method for admin login
     public function login(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-        return view('admin.Auth.login');
+        return view('admin.auth.login');
     }
 }
