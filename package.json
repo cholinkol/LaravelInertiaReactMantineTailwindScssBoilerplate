@@ -34,6 +34,8 @@
         "dayjs": "^1.11.5",
         "embla-carousel-react": "^7.0.3",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "@react-buddy/ide-toolbox": "^2.3.1",
+        "@react-buddy/palette-mantine": "^5.0.0"
     }
 }
