@@ -74,8 +74,5 @@
             </tr>
         @endforeach
     </x-adminlte-datatable>
-
-    @php
-        $config['paging'] = false;
-    @endphp
+    
 @stop

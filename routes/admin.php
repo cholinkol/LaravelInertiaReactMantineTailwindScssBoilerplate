@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,3 +36,8 @@ Route::post('/admin/login/verify', [AuthController::class, 'verify'] )->name('ve
  * Add routes for admin Blog
  */
 Route::get('/admin/blog', [BlogController::class, 'index'])->name('admin.blog.index');
+
+/**
+ * Add routes for admin Pages
+ */
+Route::get('/admin/pages', [PagesController::class, 'index'])->name('admin.pages.index');
